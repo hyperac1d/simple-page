@@ -1,22 +1,89 @@
-.wrapper {
-	width: 600px;
-	background:#eee;
-	margin: 0 auto 0 auto;
-	
+
+
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif; font-weight: 100;
+	font-size: 22px;
+	background: #2c3e50;
 }
 
-.heading {
-
+section {
+	position: relative;
+	margin: 0 -9999rem;
+	padding: 5.25rem 9999rem;
+	text-align: center;
+}
+#welcome {
+	background: #8e44ad;
+	color: white;
 }
 
-.navigation {
-
+#content1 {
+	margin-top: 7px;
+	background: #2980b9;
+	color: #ecf0f1;
+	min-height: 450px;
 }
 
-.content {
-
+p {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	text-align: left;
 }
 
-.footer {
+
+
+#content2 {
+	margin-top: 7px;
+	background: #1abc9c;
+	color: #ecf0f1;
+	min-height: 450px;
+}
+
+#content3 {
+	margin-top: 7px;
+	background: #22A7F0;
+	color: #ecf0f1;
+	min-height: 450px;
+}
+
+#content4 {
+	margin-top: 7px;
+	background: #763568;
+	color: #ecf0f1;
+	min-height: 450px;
+}
+
+#imgSection {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	color: #ecf0f1;
+	min-height: 300px;
+	background: #2c3e50;
+}
+img {
+	padding: 5px 5px 5px 5px;
+	min-height: 200px;
+	width: 200px;
+}
+
+ul {
+	text-align: left;
+	position: center;
+}
+ul li {
+	margin: 10px;
+	padding: 5px;
+}
+
+#content1 h1,#content2 h1, #content3 h1, #content4 h1{
+	text-align: left;
+	margin-left: 10px;
+	padding: 5px;
+}
+@media only screen and (max-device-width:999px){
 
 }
