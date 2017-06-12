@@ -68,6 +68,7 @@ img {
 	padding: 5px 5px 5px 5px;
 	min-height: 200px;
 	width: 200px;
+	border-radius: 25px;
 }
 
 ul {
